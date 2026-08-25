@@ -1,0 +1,41 @@
+body{
+  margin-top: 0;
+    background-color: darkblue;
+
+background-image: url(../img/perezoso.jpg);
+background-repeat: no-repeat;
+background-position: top;
+background-size: cover;
+}
+nav{
+    background-color: rgba(139, 154, 155, 0.631);
+    padding: 8px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li{
+    
+    display: inline-block;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: beige;
+}
+nav ul li a:hover{
+    color: crimson;
+    background-color: black;
+}
+.titulo{
+    color: blue;
+    text-align: center;
+}
